@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Voice Notes Widget",
+  "version": "1.0",
+  "description": "A draggable voice notes widget powered by speech recognition.",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["widget.html", "static/*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_title": "Voice Notes"
+  }
+}

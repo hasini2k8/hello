@@ -1,6 +1,15 @@
-1. Create the html webpage
-2. Initialize node.js project and the dependencies required through:
-  - npm init -y
-  -npm install express multer @google-cloud/vision openai(This is done via package.json
-3. create a server.js file with the required code
-4. Add the html code into a public folder
+**🗣️ FairFrame**
+
+**🌍 Problem**
+In team meetings, many employees — especially juniors or underrepresented voices — hesitate to share their ideas due to lack of confidence, unclear communication, or fear of being misunderstood. This leads to:
+- Fewer diverse perspectives.
+- Lower team engagement.
+- Missed opportunities for innovation.
+
+**💡 Solution**
+An AI-powered assistant that joins meetings (live or recorded) and provides personalized feedback on communication style, confidence, and clarity.
+- Helps individuals improve presentation and self-expression skills.
+- Gives managers/team leads aggregated insights on participation balance (e.g., who spoke most/least, overall tone).
+- Supports long-term growth with personal goals and progress tracking.
+- Inclusive team culture.
+- Doubles as a personal communication coach for presentations, customer calls, or interviews.
